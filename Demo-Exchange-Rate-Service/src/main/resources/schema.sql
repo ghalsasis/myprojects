@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS XCHG_RATE;
+
+CREATE TABLE XCHGRT (
+  id int PRIMARY KEY,
+  dt date,
+  currency VARCHAR(3),
+  xchgrate DECIMAL(10, 4)
+);
